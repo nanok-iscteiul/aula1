@@ -21,6 +21,19 @@ public class Main {
 			System.out.println("Fogo! "+ nome+ ", és bué novo!");
 		}
 
+		Barbeiro b;
+		if (nome.toLowerCase().contains("america")) {
+			 b = new Barbeiro(nome, idade, false);
+		}else {
+			 b = new Barbeiro(nome, idade, true);
+		}
+		System.out.println(b.toString());
+		if (!b.heroi()) {
+			for(int i = 0; i<100; i++) {
+				System.out.println("hahaha não e um heroi hahahah");
+			}
+		}
+		
 	}
 
 }
