@@ -8,6 +8,8 @@ public class Main {
 		for (int i = 0; i < 5; i++) {
 			System.out.println("Bye!");
 		}
+		Barbeiro b = new Barbeiro();
+		System.out.println(b.toString());
 	}
 
 }
