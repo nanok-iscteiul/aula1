@@ -30,7 +30,7 @@ public class Main {
 		System.out.println(b.toString());
 		if (!b.heroi()) {
 			for(int i = 0; i<100; i++) {
-				System.out.println("hahaha não e um heroi hahahah");
+				System.out.println("hahaha não e um heroi hahahah "+i);
 			}
 		}
 		
